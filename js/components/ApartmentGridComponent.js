@@ -18,14 +18,16 @@ class ApartmentGridComponent {
 
     init = () => {
         this.fetchApartments();
+
+        this.render()
     };
 
     render = () => {
         if (this.state.apartments.length === 0) {
-            this.htmlElement.innerHTML = "nėr";
+            this.htmlElement.innerHTML = "<p>siunčiama...</p>";
         } else {
             this.htmlElement.innerHTML =
-                "<pre>" + JSON.stringify(this.state.apartments) + "</pre>";
+                "<p>parsiųsta</p>";
         }
     };
 }
