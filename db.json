@@ -1,92 +1,92 @@
 {
-  "apartments": [
-      {
-          "id": "1",
-          "type": "house",
-          "owner": {
-              "fullname": "Vladimiras Hosovič",
-              "email": "vladimir@hosovix.xx",
-              "phone": "865259412"
-          },
-          "roomCount": 5,
-          "squares": 130,
-          "address": {
-              "city": "Vilnius",
-              "country": "Lithuania",
-              "street": "Naugarduko",
-              "number": "33"
-          },
-          "price": {
-              "amount": 280000,
-              "currency": "$"
-          },
-          "imgSrc": "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Flandmarkhunter.com%2Fphotos%2F60%2F53%2F605328-L.jpg&f=1&nofb=1"
-      },
-      {
-          "id": "2",
-          "type": "flat",
-          "owner": {
-              "fullname": "Algimantas Tridas",
-              "email": "algimantuxxx@one.lt",
-              "phone": "865441412"
-          },
-          "roomCount": 2,
-          "squares": 50,
-          "address": {
-              "city": "Vilnius",
-              "country": "Lithuania",
-              "street": "Gerosios Vilties",
-              "number": "23"
-          },
-          "price": {
-              "amount": 80000,
-              "currency": "€"
-          },
-          "imgSrc": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.WsLQtV0XomKYJYwuvGCWWAHaE5%26pid%3DApi&f=1"
-      },
-      {
-          "id": "3",
-          "type": "cottage",
-          "owner": {
-              "fullname": "Kazys Makačinas",
-              "email": "k.makacinas@one.lt",
-              "phone": "8659999992"
-          },
-          "roomCount": 6,
-          "squares": 200,
-          "address": {
-              "city": "Vilnius",
-              "country": "Lithuania",
-              "street": "Žvaigždžių",
-              "number": "6"
-          },
-          "price": {
-              "amount": 400000,
-              "currency": "€"
-          },
-          "imgSrc": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcottagecorehome.com%2Fwp-content%2Fuploads%2F2020%2F10%2FStunningcraftsman3.jpg&f=1&nofb=1"
-      },
-      {
-        "id": "4",
-        "type": "cottage",
-        "owner": {
-            "fullname": "Kazys Makačinas",
-            "email": "k.makacinas@one.lt",
-            "phone": "8659999992"
+    "apartments": [
+        {
+            "id": "1",
+            "type": "house",
+            "owner": {
+                "fullname": "Vladimiras Hosovič",
+                "email": "vladimir@hosovix.xx",
+                "phone": "865259412"
+            },
+            "roomCount": 5,
+            "squares": 130,
+            "address": {
+                "city": "Vilnius",
+                "country": "Lithuania",
+                "street": "Naugarduko",
+                "number": "33"
+            },
+            "price": {
+                "amount": 280000,
+                "currency": "$"
+            },
+            "imgSrc": "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Flandmarkhunter.com%2Fphotos%2F60%2F53%2F605328-L.jpg&f=1&nofb=1"
         },
-        "roomCount": 6,
-        "squares": 200,
-        "address": {
-            "city": "Vilnius",
-            "country": "Lithuania",
-            "street": "Žvaigždžių",
-            "number": "6"
+        {
+            "id": "2",
+            "type": "flat",
+            "owner": {
+                "fullname": "Algimantas Tridas",
+                "email": "algimantuxxx@one.lt",
+                "phone": "865441412"
+            },
+            "roomCount": 2,
+            "squares": 50,
+            "address": {
+                "city": "Vilnius",
+                "country": "Lithuania",
+                "street": "Gerosios Vilties",
+                "number": "23"
+            },
+            "price": {
+                "amount": 80000,
+                "currency": "€"
+            },
+            "imgSrc": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.WsLQtV0XomKYJYwuvGCWWAHaE5%26pid%3DApi&f=1"
         },
-        "price": {
-            "amount": 400000,
-            "currency": "€"
+        {
+            "id": "3",
+            "type": "cottage",
+            "owner": {
+                "fullname": "Kazys Makačinas",
+                "email": "k.makacinas@one.lt",
+                "phone": "8659999992"
+            },
+            "roomCount": 6,
+            "squares": 200,
+            "address": {
+                "city": "Vilnius",
+                "country": "Lithuania",
+                "street": "Žvaigždžių",
+                "number": "6"
+            },
+            "price": {
+                "amount": 400000,
+                "currency": "€"
+            },
+            "imgSrc": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcottagecorehome.com%2Fwp-content%2Fuploads%2F2020%2F10%2FStunningcraftsman3.jpg&f=1&nofb=1"
         },
-        "imgSrc": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcottagecorehome.com%2Fwp-content%2Fuploads%2F2020%2F10%2FStunningcraftsman3.jpg&f=1&nofb=1"
-    }
-  ]
+        {
+            "id": "4",
+            "type": "cottage",
+            "owner": {
+                "fullname": "Kazys Makačinas",
+                "email": "k.makacinas@one.lt",
+                "phone": "8659999992"
+            },
+            "roomCount": 6,
+            "squares": 200,
+            "address": {
+                "city": "Vilnius",
+                "country": "Lithuania",
+                "street": "Žvaigždžių",
+                "number": "6"
+            },
+            "price": {
+                "amount": 400000,
+                "currency": "€"
+            },
+            "imgSrc": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcottagecorehome.com%2Fwp-content%2Fuploads%2F2020%2F10%2FStunningcraftsman3.jpg&f=1&nofb=1"
+        }
+    ]
 }

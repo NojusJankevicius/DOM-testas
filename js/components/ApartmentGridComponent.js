@@ -32,16 +32,20 @@ class ApartmentGridComponent {
     };
 
     render = () => {
-        if (this.state.apartments.length === 0) {
+        const {apartments} = this.state
+        if (apartments.length === 0) {
             this.htmlElement.innerHTML = `<div class="text-center"><img src="assets/loading.gif" /></div>`;
-        } else {
+        } else if(apartments.length > 0) {
             this.htmlElement.innerHTML = "";
-            const children = this.state.apartments.map(({apartmentProps}) => new ApartmentCardComponent({
+            const children = apartments
+            .map(({...apartmentProps}) => new ApartmentCardComponent({
                 ...apartmentProps
             }))
             .map(x => x.htmlElement)
             .map(this.wrapChild)
             this.htmlElement.append(...children)
+        } else {
+            this.htmlElement.innerHTML = "no apartments listed"
         }
     };
 }
