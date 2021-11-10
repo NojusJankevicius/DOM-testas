@@ -13,7 +13,10 @@ class ApartmentGridComponent {
         this.render();
     };
 
+    delApartment = id => API.deleteApartment(id, this.fetchApartments, this.showError)
+
     showError = (err) => console.error(err);
+    
     fetchApartments = () => API.getApartments(this.saveData, this.showError);
 
     wrapChild = element => {
@@ -38,8 +41,9 @@ class ApartmentGridComponent {
         } else if(apartments.length > 0) {
             this.htmlElement.innerHTML = "";
             const children = apartments
-            .map(({...apartmentProps}) => new ApartmentCardComponent({
-                ...apartmentProps
+            .map(({ id, ...apartmentProps}) => new ApartmentCardComponent({
+                ...apartmentProps,
+                onDelete: () => this.delApartment(id)
             }))
             .map(x => x.htmlElement)
             .map(this.wrapChild)

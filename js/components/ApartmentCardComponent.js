@@ -25,7 +25,7 @@ class ApartmentCardComponent {
     }
 
     init = () => {
-        const { type, owner, roomCount, squares, address, imgSrc } = this.props
+        const { type, owner, roomCount, squares, address, imgSrc, onDelete } = this.props
 
         const ownerAddress = `${address.street} - ${address.number}, ${address.city}, ${address.country}`
         
@@ -61,6 +61,8 @@ class ApartmentCardComponent {
                 </div>
             </div>
             <button class="btn btn-dark btn-sm position-absolute top-0 end-0 mt-2 me-2">✕</button>
-        `
+        `;
+        const btn = this.htmlElement.querySelector('.btn');
+        btn.addEventListener('click', onDelete);
     }
 }

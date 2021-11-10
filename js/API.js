@@ -12,7 +12,6 @@ class API {
 
   static deleteApartment = (id, success, failure) => {
     fetch(`${serverURL}/apartments/${id}`, { method: 'DELETE' })
-      .then(res => res.json())
       .then(success)
       .catch(failure)
   }
